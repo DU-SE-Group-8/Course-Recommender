@@ -2,7 +2,7 @@ import Message from "./Message";
 
 const Messages = ({ messages }) => {
   return ( 
-    <div class="flex flex-col-reverse flex-grow h-0 overflow-auto">
+    <div class="flex flex-col-reverse grow h-0 overflow-auto">
       {messages.map(message => (
         <Message 
           key={message.id} 
