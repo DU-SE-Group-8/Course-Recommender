@@ -1,6 +1,6 @@
 const InputWrapper = ({children}, _) => {
   return ( 
-    <div className="bg-gray-300 p-4">
+    <div className="p-4">
       {children}
     </div>
   );

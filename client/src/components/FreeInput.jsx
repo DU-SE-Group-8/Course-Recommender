@@ -3,7 +3,7 @@ import InputWrapper from "./InputWrapper";
 const FreeInput = () => {
   return ( 
     <InputWrapper>
-      <input className="flex items-center h-10 w-full rounded px-3 text-sm" type="text" placeholder="Type your message…" />
+      <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs flex items-center" />
     </InputWrapper>
   );
 }
