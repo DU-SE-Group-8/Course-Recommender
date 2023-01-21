@@ -6,7 +6,7 @@ const Message = ({ message, isQuestion=false }) => {
 
   return ( 
     <div className={messageClass}>
-      <p className="text-sm">{message}</p>
+      <p className="text-md">{message}</p>
     </div>
   );
 }
