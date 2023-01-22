@@ -1,0 +1,210 @@
+{
+    "courses": [
+        {
+            "name": "Getting Started with Enterprise-grade AI",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/getting-started-with-enterprise-grade-ai"
+        },
+        {
+            "name": "Building Trustworthy AI Enterprise Solutions",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/building-trustworthy-ai-enterprise-solutions"
+        },
+        {
+            "name": "Ethical AI Applications of Deep Learning and Computer Vision",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/ethical-ai-applications-of-deep-learning-and-computer-vision"
+        },
+        {
+            "name": "Journey to Cloud: Envisioning Your Solution",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/journey-to-cloud-envisioning-your-solution"
+        },
+        {
+            "name": "DevOps for Enterprise Business Agility",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/devops-for-enterprise-business-agility"
+        },
+        {
+            "name": "Getting Started with Enterprise Data Science",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/building-cloud-based-mobile-solutions-for-the-enterprise"
+        },
+        {
+            "name": "Getting Started with Enterprise Data Science",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/getting-started-with-enterprise-data-science"
+        },
+        {
+            "name": "Enterprise Data Science in Practice",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/enterprise-data-science-in-practice"
+        },
+        {
+            "name": "Machine Learning for Data Science Projects",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/machine-learning-for-data-science-projects"
+        },
+        {
+            "name": "Getting Started with Threat Intelligence and Hunting",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/getting-started-with-threat-intelligence-and-hunting"
+        },
+        {
+            "name": "Enterprise Security in Practice",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/enterprise-security-in-practice"
+        },
+        {
+            "name": "Security Operations Center in Practice",
+            "url": "https://skillsbuild.org/college-students/digital-credentials/security-operations-center-in-practice"
+        },
+        {
+            "name": "Artificial Intelligence Fundamentals",
+            "url": "https://students.yourlearning.ibm.com/activity/PLAN-CC702B39D429"
+        },
+        {
+            "name": "AI Foundations: A Collaboration of ISTE and IBM",
+            "url": "https://students.yourlearning.ibm.com/activity/PLAN-B2125F145F0E"
+        },
+        {
+            "name": "Introduction to Cloud",
+            "url": "https://students.yourlearning.ibm.com/activity/PLAN-4EB23B51588C"
+        },
+        {
+            "name": "IBM Cloud essentials",
+            "url": "https://students.yourlearning.ibm.com/activity/PLAN-0F5CA76EE206"
+        },
+        {
+            "name": "Cybersecurity fundamentals",
+            "url": "https://students.yourlearning.ibm.com/activity/ILB-ZKRKJQJJEMEQQ7GV"
+        },
+        {
+            "name": "Datascience foundations",
+            "url": "https://students.yourlearning.ibm.com/activity/PLAN-0EC2BCEA3C39"
+        },
+        {
+            "name": "Agile Explorer",
+            "url": "https://students.yourlearning.ibm.com/activity/PLAN-3B03198AB6DE"
+        }
+    ],
+    
+    "questions": [
+        {
+            "question": "What is your age?",
+            "answers": [
+                "Below 13",
+                "13-17",
+                "18-24",
+                "24+"
+            ]
+        },
+        {
+            "question": "What do you study?",
+            "answers": [
+                "Computer Science",
+                "Mathematical Sciences",
+                "Natural Sciences",
+                "Other"
+            ]
+        },
+        {
+            "question": "Do you (or would you like to) work in a Computing-based sector?",
+            "answers": [
+                "Yes",
+                "Maybe",
+                "Undecided",
+                "No"
+            ]
+        },
+        {
+            "question": "How would you describe your skill level?",
+            "answers": [
+                "Beginner",
+                "Foundation",
+                "Intermediate",
+                "Advanced"
+            ]
+        },
+        {
+            "question": "How often does your degree/workplace require writing essays/reports?",
+            "answers": [
+                "Always",
+                "Sometimes",
+                "Rarely",
+                "Never"
+            ]
+        },
+        {
+            "question": "Are you a college/university student?",
+            "answers": [
+                "Yes",
+                "No, I have a degree",
+                "No, but I want to go to college",
+                "No, and I don't plan to be"
+            ]
+        },
+        {
+            "question": "Why would you like to study a course?",
+            "answers": [
+                "As a hobby",
+                "For work/university in the immediate future",
+                "For work/university in the far future",
+                "Other"
+            ]
+        },
+        {
+            "question": "How interested are you in automating data?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "How interested are you in managing data?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "How interested are you in the cloud and Networking?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "How interested are you in Cyber Security?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "How interested are you in learning Computing skills for Businesses/Enterprises?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "How interested are you in learning methodologies such as Agile/Devops?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "How much time would you like to dedicate to the course?",
+            "answers": [
+                "Any",
+                "0-5 hours",
+                "6-10 hours",
+                "11 hours +"
+            ]
+        }
+        
+    ]
+}
