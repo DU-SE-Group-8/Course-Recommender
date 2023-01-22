@@ -1,8 +1,12 @@
-const MultiChoiceInput = () => {
+import InputWrapper from "./InputWrapper";
+
+const MultiChoiceInput = ({ answers=[] }) => {
   return ( 
-    <div className="multi-choice-input">
-      Multi
-    </div>
+    <InputWrapper>
+      {answers.map(answer => (
+        <button class="btn btn-primary m-2">{answer.value}</button>
+      ))}
+    </InputWrapper>
   );
 }
  

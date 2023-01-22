@@ -1,6 +1,6 @@
 import InputWrapper from "./InputWrapper";
 
-const FreeInput = () => {
+const FreeType = () => {
   return ( 
     <InputWrapper>
       <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-lg flex items-center" />
@@ -8,4 +8,4 @@ const FreeInput = () => {
   );
 }
  
-export default FreeInput;
+export default FreeType;
