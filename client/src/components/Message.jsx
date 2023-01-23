@@ -11,11 +11,11 @@ const Message = ({ message, isQuestion=false, load=false }) => {
       {load 
         ?
           <TypeAnimation     
-            sequence={[message]}
+            sequence={[' ', 400, message]}
             speed={75} 
             wrapper="p"
             className='text-md'
-            repeat={1}
+            repeat={0}
             cursor={false}
           />
         :

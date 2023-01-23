@@ -44,7 +44,7 @@ const Chat = () => {
   }
   
   return ( 
-    <div className="flex flex-col items-center justify-center w-screen xl:w-3/5 min-h-screen bg-neutral text-neutral-content">
+    <div className="flex flex-col items-center justify-center w-screen xl:w-3/5 min-h-screen bg-neutral text-neutral-content animate-fade">
       <div className="flex flex-col grow w-full shadow-xl overflow-hidden">
         <Header />
         <Messages log={log} />
