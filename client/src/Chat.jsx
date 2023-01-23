@@ -9,7 +9,6 @@ import { getQuestions } from "./services/questionsApi";
 const Chat = () => {
   const [queue, setQueue] = useState([])
   const [log, setLog] = useState([])
-  const [messages, setMessages] = useState([])
 
   useEffect(() => {
     const asignQuestions = async () => {

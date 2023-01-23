@@ -1,4 +1,6 @@
-const Message = ({ message, isQuestion=false }) => {
+import { TypeAnimation } from 'react-type-animation';
+
+const Message = ({ message, isQuestion=false, load=false }) => {
   let messageClass = "flex w-full space-x-3 p-6 py-8";
   if (isQuestion) {
     messageClass += " bg-primary text-primary-content";
@@ -6,7 +8,19 @@ const Message = ({ message, isQuestion=false }) => {
 
   return ( 
     <div className={messageClass}>
-      <p className="text-md">{message}</p>
+      {load 
+        ?
+          <TypeAnimation     
+            sequence={[message]}
+            speed={75} 
+            wrapper="p"
+            className='text-md'
+            repeat={1}
+            cursor={false}
+          />
+        :
+        <p className="text-md">{message}</p>
+      }
     </div>
   );
 }
