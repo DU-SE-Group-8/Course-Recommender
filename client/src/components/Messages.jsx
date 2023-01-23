@@ -1,14 +1,22 @@
 import Message from "./Message";
 
-const Messages = ({ messages }) => {
+const Messages = ({ log }) => {
+  const messages = [...log].reverse()
   return ( 
-    <div class="flex flex-col-reverse grow h-0 overflow-auto">
+    <div className="flex flex-col-reverse grow h-0 overflow-auto">
       {messages.map(message => (
-        <Message 
-          key={message.id} 
-          isQuestion={message.isQuestion} 
-          message={message.text}
-        />
+        <div key={message.questionId}>
+          <Message 
+            isQuestion={true} 
+            message={message.question}
+          />
+          {message.answer !== -1 &&
+            <Message
+              isQuestion={false} 
+              message={message.answer}
+            />
+          }
+        </div>
       ))}
     </div>
   );

@@ -17,8 +17,8 @@ questions = data['questions']
 # Routes
 @app.route("/questions/<int:round>", methods=['POST'])
 def generate_questions(round):
-    round = escape(round)
-    response = jsonify(data=questions[:round*3])
+    round = int(escape(round))
+    response = jsonify(questions[:round*3])
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
 
@@ -26,6 +26,6 @@ def generate_questions(round):
 def generate_courses():
     random_courses = courses
     random.shuffle(random_courses)
-    response = jsonify(data=random_courses[:3])
+    response = jsonify(random_courses[:3])
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
