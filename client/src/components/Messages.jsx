@@ -11,7 +11,6 @@ const Messages = ({ log }) => {
               <Message 
                 isQuestion={true} 
                 message={message.question}
-                load
               />
               <Message
                 isQuestion={false} 

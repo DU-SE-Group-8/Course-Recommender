@@ -5,11 +5,10 @@ const Message = ({ message, isQuestion=false, load=false }) => {
   if (isQuestion) {
     messageClass += " bg-primary text-primary-content";
   }
-
+  // if (load) console.log(message)
   return ( 
     <div className={messageClass}>
-      {load 
-        ?
+      {load === true ?
           <TypeAnimation     
             sequence={[' ', 400, message]}
             speed={75} 

@@ -13,10 +13,11 @@ const Chat = () => {
   useEffect(() => {
     const asignQuestions = async () => {
       const questions = await getQuestions();
+      // console.log(questions)
       setQueue(questions.slice(1));
       setLog([
         {
-          questionId: questions[0].id,
+          questionId: 0,
           question: questions[0].question,
           answers: questions[0].answers,
           answer: -1,
@@ -32,7 +33,7 @@ const Chat = () => {
     if (queue.length > 0) {
       temp.push(
         {
-          questionId: queue[0].id,
+          questionId: log.length,
           question: queue[0].question,
           answers: queue[0].answers,
           answer: -1,
@@ -42,6 +43,7 @@ const Chat = () => {
     }
     setLog(temp);
   }
+  console.log('log', log)
   
   return ( 
     <div className="flex flex-col items-center justify-center w-screen xl:w-3/5 min-h-screen bg-neutral text-neutral-content animate-fade">
