@@ -10,7 +10,7 @@ const get_questions = (req, res) => {
 }
 
 const recommend_courses = (req, res) => {
-  res.send(courses[1])
+  res.send(courses[Math.floor(Math.random() * courses.length)])
 }
 
 module.exports = {
