@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import FreeType from "./components/FreeInput";
 import Header from "./components/Header";
 import Messages from "./components/Messages";
 import MultiChoiceInput from "./components/MultiChoiceInput";
@@ -68,7 +69,10 @@ const Chat = () => {
       <div className="flex flex-col grow w-full shadow-xl overflow-hidden">
         <Header />
         <Messages log={log} />
-        <MultiChoiceInput answers={log[log.length - 1]?.answer === -1 ? log[log.length - 1]?.answers || [] : []} submit={submit} />
+        {log.length === 6 && log[5]?.answer == -1 
+          ? <FreeType submit={submit} />
+          : <MultiChoiceInput answers={log[log.length - 1]?.answer === -1 ? log[log.length - 1]?.answers || [] : []} submit={submit} />
+        }
       </div>
     </div>
   )
