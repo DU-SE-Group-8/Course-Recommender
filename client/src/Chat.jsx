@@ -3,7 +3,6 @@ import Header from "./components/Header";
 import Messages from "./components/Messages";
 import MultiChoiceInput from "./components/MultiChoiceInput";
 import { getCourses } from "./services/coursesApi";
-// import { getCourses } from "./services/coursesApi";
 import { getQuestions } from "./services/questionsApi";
 
 // Tailwind Inspired by https://codepen.io/robstinson/pen/oNLaLMN
@@ -13,10 +12,8 @@ const Chat = () => {
 
   const addQuestionToLog = (question) => {
     setLog([...log, {
-          questionId: log.length,
-          question: question.question,
-          answers: question.answers,
           answer: -1,
+          ...question,
         },
       ])
   }
@@ -24,7 +21,6 @@ const Chat = () => {
   useEffect(() => {
     const asignQuestions = async () => {
       const questions = await getQuestions();
-      // console.log(questions)
       setQueue(questions.slice(1));
       addQuestionToLog(questions[0])
     };
@@ -32,12 +28,12 @@ const Chat = () => {
   }, [])
 
   const recommend = async () => {
-    const courses = await getCourses();
+    const courses = await getCourses(log);
     console.log(courses)
   }
 
   const asignMoreQuestions = async () => {
-    const questions = await getQuestions(2);
+    const questions = await getQuestions(2, log);
     setQueue(questions.slice(1));
     addQuestionToLog(questions[0])
   };
@@ -48,9 +44,7 @@ const Chat = () => {
     if (queue.length > 0) {
       temp.push(
         {
-          questionId: log.length,
-          question: queue[0].question,
-          answers: queue[0].answers,
+          ...queue[0],
           answer: -1,
         }
       )

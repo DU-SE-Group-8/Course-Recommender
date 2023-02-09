@@ -2,6 +2,7 @@ import Message from "./Message";
 
 const Messages = ({ log }) => {
   const messages = [...log].reverse()
+
   return ( 
     <div className="flex flex-col-reverse grow h-0 overflow-auto">
       {messages.map(message => (
