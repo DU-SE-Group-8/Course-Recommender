@@ -28,7 +28,7 @@ const get_questions = (req, res) => {
 
 const recommend_courses = (req, res) => {
   const log = req.body
-  res.send(courses[Math.floor(Math.random() * courses.length)])
+  res.send(courses.slice(0,5))
 }
 
 module.exports = {

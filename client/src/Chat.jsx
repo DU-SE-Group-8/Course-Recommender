@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import FreeType from "./components/FreeInput";
 import Header from "./components/Header";
+import Input from "./components/Input";
 import Messages from "./components/Messages";
-import MultiChoiceInput from "./components/MultiChoiceInput";
 import { getCourses } from "./services/coursesApi";
 import { getQuestions } from "./services/questionsApi";
 
@@ -15,8 +14,8 @@ const Chat = () => {
     setLog([...log, {
           answer: -1,
           ...question,
-        },
-      ])
+        }]
+    )
   }
 
   useEffect(() => {
@@ -30,7 +29,10 @@ const Chat = () => {
 
   const recommend = async () => {
     const courses = await getCourses(log);
-    console.log(courses)
+    setLog([...log, {
+      courses,
+    },
+  ])
   }
 
   const asignMoreQuestions = async () => {
@@ -69,10 +71,7 @@ const Chat = () => {
       <div className="flex flex-col grow w-full shadow-xl overflow-hidden">
         <Header />
         <Messages log={log} />
-        {log.length === 6 && log[5]?.answer == -1 
-          ? <FreeType submit={submit} />
-          : <MultiChoiceInput answers={log[log.length - 1]?.answer === -1 ? log[log.length - 1]?.answers || [] : []} submit={submit} />
-        }
+        <Input log={log} submit={submit} />
       </div>
     </div>
   )
