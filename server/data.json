@@ -357,11 +357,20 @@
             ]
         },
         {
+            "question": "Are you a teacher?",
+            "answers": [
+                "Yes",
+                "No, but I would like to be.",
+                "No, and I am unsure if I would like to be.",
+                "No, and I would not like to be."
+            ]
+        },
+        {
             "question": "Why would you like to study a course?",
             "answers": [
-                "As a hobby",
                 "For work/university in the immediate future",
                 "For work/university in the far future",
+                "As a hobby",
                 "Other"
             ]
         },
@@ -375,7 +384,7 @@
             ]
         },
         {
-            "question": "How interested are you in managing data?",
+            "question": "How interested are you in managing (the flow of) data?",
             "answers": [
                 "Very interested",
                 "Slightly interested",
@@ -402,6 +411,15 @@
             ]
         },
         {
+            "question": "How interested are you in creating media?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
             "question": "How interested are you in learning Computing skills for Businesses/Enterprises?",
             "answers": [
                 "Very interested",
@@ -420,14 +438,41 @@
             ]
         },
         {
+            "question": "Is programming as a freelancer (mainly open-source projects) a topic of interest?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "Are you interested in learning in dealing with ethical topics?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
+            "question": "Are you interested in new emerging technologies?",
+            "answers": [
+                "Very interested",
+                "Slightly interested",
+                "Unsure",
+                "Disinterested"
+            ]
+        },
+        {
             "question": "How much time would you like to dedicate to the course?",
             "answers": [
                 "Any",
-                "0-5 hours",
+                "11 hours +",
                 "6-10 hours",
-                "11 hours +"
+                "0-5 hours"
             ]
         }
-        
+
     ]
 }
