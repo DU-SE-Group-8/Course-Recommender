@@ -20,4 +20,16 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+  daisyUI: {
+    themes: [
+      {
+        dark: {
+          ...require("daisyui/src/colors/themes")["[data-theme=dark]"],
+          primary: "blue",
+          "primary-focus": "mediumblue",
+        },
+      }
+    ],
+    darkTheme: "IBMtheme",
+  },
 }

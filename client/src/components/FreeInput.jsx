@@ -10,7 +10,7 @@ const FreeType = ({ submit }) => {
         <input 
             type="text" 
             placeholder="Type here" 
-            className="input input-bordered input-primary w-full max-w-lg flex items-center m-4 mr-0"
+            className="input input-bordered w-full max-w-lg flex items-center m-4 mr-0 text-white"
             onChange={(e) => setInput(e.target.value)}
             value={input}
             onKeyDown={(e) => {
@@ -20,7 +20,7 @@ const FreeType = ({ submit }) => {
             }}
           />
           <button
-            className="btn btn-primary m-4" 
+            className="btn bg-blue-600 hover:bg-blue-500 m-4 text-white" 
             onClick={() => submit(input)}
           >
             Send
