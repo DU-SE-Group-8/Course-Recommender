@@ -1,9 +1,9 @@
 import MultiChoiceInput from "./MultiChoiceInput";
 import FreeType from "./FreeInput";
 
-const Input = ({ log, submit }) => {
-  if (log.length === 6) {
-    if (log[5]?.answer !== -1) 
+const Input = ({ log, submit, questionQueue }) => {
+  if (questionQueue.length == 0) {
+    if (log[log.length - 1]?.answer !== -1) 
       return ''
     else
       return <FreeType submit={submit} />

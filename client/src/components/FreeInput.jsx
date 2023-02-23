@@ -10,7 +10,7 @@ const FreeType = ({ submit }) => {
         <input 
             type="text" 
             placeholder="Type here" 
-            className="input input-bordered w-full max-w-lg flex items-center m-4 mr-0 text-white"
+            className="input input-bordered w-full max-w-lg flex items-center m-4 mr-0 dark:text-white text-black"
             onChange={(e) => setInput(e.target.value)}
             value={input}
             onKeyDown={(e) => {

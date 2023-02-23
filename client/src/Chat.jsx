@@ -35,12 +35,6 @@ const Chat = () => {
   ])
   }
 
-  const asignMoreQuestions = async () => {
-    const questions = await getQuestions(2, log);
-    setQueue(questions.slice(1));
-    addQuestionToLog(questions[0])
-  };
-
   const submit = (answer) => {
     let temp = [...log];
     temp[temp.length - 1].answer = answer;
@@ -56,13 +50,7 @@ const Chat = () => {
     setLog(temp);
 
     if (queue.length == 0 && log[log.length - 1]?.answer !== -1) {
-      if (log.length === 6) {
-        // Recommend courses
-        recommend();
-      } else {
-        // Get more questions
-        asignMoreQuestions();
-      }
+      recommend();
     }
   }
   
@@ -71,7 +59,7 @@ const Chat = () => {
       <div className="flex flex-col grow w-full shadow-xl overflow-hidden">
         <Header />
         <Messages log={log} />
-        <Input log={log} submit={submit} />
+        <Input log={log} submit={submit} questionQueue={queue} />
       </div>
     </div>
   )
