@@ -16,6 +16,9 @@ function responseToCourses(response)
 
     const user = tf.tensor(response);
 
+    // user = updateNLP(user, answer)
+
+
     let first = [-1,9999];
     let second = [-1,9999];
     let third = [-1,9999];
