@@ -1,11 +1,9 @@
 const tf = require('@tensorflow/tfjs');
 
 function responseToVectors(response) {
-    let questions = []
     let jsonContent = require('./questions.json')
     let answers = []
     for(let i = 0; i < response.length - 1; i++) {
-        questions[i] = jsonContent[i]['Question'];
         answers[i] = response[i].answerId
     }
 
