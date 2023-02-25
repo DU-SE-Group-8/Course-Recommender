@@ -321,15 +321,6 @@
             ]
         },
         {
-            "question": "Do you (or would you like to) work in a Computing-based sector?",
-            "answers": [
-                "Yes",
-                "Maybe",
-                "Undecided",
-                "No"
-            ]
-        },
-        {
             "question": "How would you describe your skill level?",
             "answers": [
                 "Beginner",
@@ -357,24 +348,6 @@
             ]
         },
         {
-            "question": "Are you a teacher?",
-            "answers": [
-                "Yes",
-                "No, but I would like to be.",
-                "No, and I am unsure if I would like to be.",
-                "No, and I would not like to be."
-            ]
-        },
-        {
-            "question": "Why would you like to study a course?",
-            "answers": [
-                "For work/university in the immediate future",
-                "For work/university in the far future",
-                "As a hobby",
-                "Other"
-            ]
-        },
-        {
             "question": "How interested are you in automating data?",
             "answers": [
                 "Very interested",
@@ -384,25 +357,7 @@
             ]
         },
         {
-            "question": "How interested are you in managing (the flow of) data?",
-            "answers": [
-                "Very interested",
-                "Slightly interested",
-                "Unsure",
-                "Disinterested"
-            ]
-        },
-        {
             "question": "How interested are you in the cloud and Networking?",
-            "answers": [
-                "Very interested",
-                "Slightly interested",
-                "Unsure",
-                "Disinterested"
-            ]
-        },
-        {
-            "question": "How interested are you in Cyber Security?",
             "answers": [
                 "Very interested",
                 "Slightly interested",
@@ -473,6 +428,5 @@
                 "0-5 hours"
             ]
         }
-
     ]
 }

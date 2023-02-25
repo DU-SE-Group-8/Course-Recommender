@@ -1,4 +1,5 @@
 const { questions, courses } = require('./constants')
+const knn = require('./knn')
 
 const get_questions = (req, res) => {
   data = questions
@@ -12,7 +13,8 @@ const recommend_courses = (req, res) => {
     'answerId': item.answers.indexOf(item.answer),
   }))
 
-  console.log(log)
+  // console.log(log)
+  recCourseIds = knn.vectorsToCourses(knn.responseToVectors(log))
   res.send(courses.slice(0,5))
 }
 
