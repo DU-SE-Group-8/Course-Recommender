@@ -112,16 +112,6 @@ function vectorsToCourses(vector)
     }
 
 
-    // console.log(names[first[0]])
-    // console.log(first)
-    // console.log(names[second[0]])
-    // console.log(second)
-    // console.log(names[third[0]])
-    // console.log(third)
-    // console.log(names[fourth[0]])
-    // console.log(fourth)
-    // console.log(names[fifth[0]])
-    // console.log(fifth)
     user.print()
     tensors[13].print()
     return [first[0], second[0], third[0], fourth[0], fifth[0]];
@@ -131,5 +121,3 @@ module.exports = {
     responseToVectors,
     vectorsToCourses
 }
-
-console.log(vectorsToCourses([4,4,4,4,4,4,4,4,4,4,4,4,4,4,4]))

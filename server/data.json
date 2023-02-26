@@ -1,6 +1,66 @@
 {
     "courses": [
         {
+            "name": "Getting Started with Enterprise-grade AI",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Building Trustworthy AI Enterprise Solutions",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Ethical AI Applications of Deep Learning and Computer Vision",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Building AI Solutions Using Advanced Algorithms and Open Source Frameworks",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Journey to Cloud: Envisioning Your Solution",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Journey to Cloud: Transforming Your Culture",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Journey to Cloud: Orchestrating Your Culture",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "DevOps for Enterprise Business Agility",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Building Cloud-based Mobile Solutions for the Enterprise",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Getting Started with Enterprise Data Science",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Enterprise Data Science in Practice",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Machine Learning for Data Science Projects",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Getting Started with Threat Intelligence and Hunting",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Enterprise Security in Practice",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
+            "name": "Security Operations Center in Practice",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+        },
+        {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-B2125F145F0E?utm_source=skillsbuild.org",
             "name": "AI Foundations: A Collaboration of ISTE and IBM",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
@@ -16,28 +76,8 @@
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
         },
         {
-            "url": "https://students.yourlearning.ibm.com/activity/PLAN-7489B5E631AA?utm_source=skillsbuild.org",
-            "name": "Tecnolog�as para robots cognitivos",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/ILB-MKPEZQVKQDZW11MR?utm_source=skillsbuild.org",
-            "name": "Watson va a clase",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
-        },
-        {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-ADC02F816D0D?utm_source=skillsbuild.org",
             "name": "IBM AI Education, Powered by MindSpark Learning",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1592492859648?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Artificial Intelligence (AI)",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-EE08894869B4?utm_source=skillsbuild.org",
-            "name": "Artificial Intelligence Curriculum Map",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
         },
         {
@@ -61,11 +101,6 @@
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-CloudComputing-01.png&w=3840&q=75"
         },
         {
-            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1615234184424?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Cloud Computing",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-CloudComputing-01.png&w=3840&q=75"
-        },
-        {
             "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1568409227723?utm_source=skillsbuild.org",
             "name": "Blockchain: Getting Started",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Blockchain-1.png&w=3840&q=75"
@@ -76,11 +111,6 @@
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Blockchain-1.png&w=3840&q=75"
         },
         {
-            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1592493139693?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Cloud, the Internet of Things (IoT), and Blockchain",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Blockchain-1.png&w=3840&q=75"
-        },
-        {
             "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1565120073119?utm_source=skillsbuild.org",
             "name": "Cybersecurity: Getting Started",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Cybersecurity-01.png&w=3840&q=75"
@@ -88,21 +118,6 @@
         {
             "url": "https://students.yourlearning.ibm.com/activity/ILB-ZKRKJQJJEMEQQ7GV?utm_source=skillsbuild.org",
             "name": "Cybersecurity Fundamentals",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Cybersecurity-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1592493815953?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Cybersecurity",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Cybersecurity-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://ptech.yourlearning.ibm.com/channel/CNL_LCB_1615232016018?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Cyber Essentials",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Cybersecurity-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-1F530A7D59C4?utm_source=skillsbuild.org",
-            "name": "Cybersecurity Curriculum Map",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-Cybersecurity-01.png&w=3840&q=75"
         },
         {
@@ -118,16 +133,6 @@
         {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-F0DF852C4003?utm_source=skillsbuild.org",
             "name": "Data Science Foundations ",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-DataScience-1.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1615213020281?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Data Science",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-DataScience-1.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-59F5F5E83723?utm_source=skillsbuild.org",
-            "name": "Data Science Curriculum Map",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-DataScience-1.png&w=3840&q=75"
         },
         {
@@ -153,26 +158,6 @@
         {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-DEAEB6C8F149?utm_source=skillsbuild.org?utm_source=skillsbuild.org",
             "name": "Open Source Origin Stories",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-EmergingTech-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1614720276419?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Explore Emerging Tech",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-EmergingTech-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-F5F6E6B93290?channelId=CNL_LCB_1660142061429?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Open Source�",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-EmergingTech-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-218B8624CFF0?channelId=CNL_LCB_1660142061429?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: AI Ethics",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-EmergingTech-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-6BDAF5AE97DE?utm_source=skillsbuild.org",
-            "name": "Intro to Tech Curriculum Map",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-EmergingTech-01.png&w=3840&q=75"
         },
         {
@@ -206,28 +191,13 @@
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-DesignThinking-01.png&w=3840&q=75"
         },
         {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-379F493A25C7?utm_source=skillsbuild.org",
-            "name": "Design Thinking Curriculum Map",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-DesignThinking-01.png&w=3840&q=75"
-        },
-        {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-C60CBE94E2D1?utm_source=skillsbuild.org",
             "name": "Working in a Digital World: Professional Skills",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-ProfessionalSkills-01.png&w=3840&q=75"
         },
         {
-            "url": "https://students.yourlearning.ibm.com/activity/PLAN-168DB85AA698?utm_source=skillsbuild.org",
-            "name": "Teacher Resources: Professional Skills",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-ProfessionalSkills-01.png&w=3840&q=75"
-        },
-        {
             "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1592493886669?utm_source=skillsbuild.org",
             "name": "Professional Skills and Innovative Ways of Working Together",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-ProfessionalSkills-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-0D0B25A42405?utm_source=skillsbuild.org",
-            "name": "Professional Skills Curriculum Map",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-ProfessionalSkills-01.png&w=3840&q=75"
         },
         {
@@ -258,11 +228,6 @@
         {
             "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1615946982547?utm_source=skillsbuild.org",
             "name": "Preparing for Your First Job (Job Application Essentials)",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-JobReadiness-01.png&w=3840&q=75"
-        },
-        {
-            "url": "https://students.yourlearning.ibm.com/activity/URL-C12DC2ADE978?utm_source=skillsbuild.org",
-            "name": "Job Application Essentials Curriculum Map",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-JobReadiness-01.png&w=3840&q=75"
         },
         {
@@ -305,10 +270,10 @@
         {
             "question": "What is your age?",
             "answers": [
-                "Below 13",
-                "13-17",
+                "24+",
                 "18-24",
-                "24+"
+                "13-17",
+                "Below 13"
             ]
         },
         {
@@ -323,10 +288,10 @@
         {
             "question": "How would you describe your skill level?",
             "answers": [
-                "Beginner",
-                "Foundation",
+                "Advanced",
                 "Intermediate",
-                "Advanced"
+                "Foundation",
+                "Beginner"
             ]
         },
         {

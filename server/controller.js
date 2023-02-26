@@ -13,9 +13,9 @@ const recommend_courses = (req, res) => {
     'answerId': item.answers.indexOf(item.answer),
   }))
 
-  // console.log(log)
   recCourseIds = knn.vectorsToCourses(knn.responseToVectors(log))
-  res.send(courses.slice(0,5))
+  ans = [courses[recCourseIds[0]],courses[recCourseIds[1]],courses[recCourseIds[2]],courses[recCourseIds[3]],courses[recCourseIds[4]]]
+  res.send(ans)
 }
 
 module.exports = {
