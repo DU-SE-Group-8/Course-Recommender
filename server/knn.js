@@ -1,4 +1,6 @@
 const tf = require('@tensorflow/tfjs');
+// If npm can't find module (https://stackoverflow.com/questions/57537386/cannot-import-tensorflow-tfjs-node-in-nodejs):
+// sudo npm install @tensorflow/tfjs-node --unsafe-perm=true --allow-root
 
 function responseToVectors(response) {
     let jsonContent = require('./questions.json')
