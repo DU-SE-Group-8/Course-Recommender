@@ -17,6 +17,9 @@ module.exports = {
       animation: {
         fade: 'fade 0.2s normal linear'
       },
+      colors: {
+        'IBM-blue': '#3858ff',
+      },
     },
   },
   plugins: [require("daisyui")],

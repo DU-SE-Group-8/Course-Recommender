@@ -7,7 +7,7 @@ const CourseCard = ({ course }) => {
           <h2 className="card-title">{course.name}</h2>
           <div className="card-actions justify-center">
             <button
-              className="btn text-white bg-blue-600 hover:bg-blue-500 border-0" 
+              className="btn text-white bg-IBM-blue hover:bg-blue-500 border-0" 
               onClick={() => window.open(course.url, "_blank")}
             >
               Start Course!
