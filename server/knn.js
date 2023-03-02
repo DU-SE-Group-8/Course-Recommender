@@ -3,7 +3,7 @@ const tf = require('@tensorflow/tfjs');
 // sudo npm install @tensorflow/tfjs-node --unsafe-perm=true --allow-root
 
 function responseToVectors(response) {
-    let jsonContent = require('./questions.json')
+    const jsonContent = require('./questions.json')
     let answers = []
     for(let i = 0; i < response.length - 1; i++) {
         answers[i] = response[i].answerId
@@ -23,9 +23,9 @@ function responseToVectors(response) {
         }
     }
 
-    answers = answers.map(function(x) { return 4 - x; })
+    // answers = answers.map(function(x) { return 4 - x; })
     for (let i = 0; i < arrayOfScores.length; i++) {
-        arrayOfScores[i] = arrayOfScores[i].map(function(x) { return x / answers[i]; })
+        arrayOfScores[i] = arrayOfScores[i].map(function(x) { return x / (answers[i]+1); })
     }
 
     let anotherArray = [];
@@ -37,6 +37,7 @@ function responseToVectors(response) {
             }
         }
     }
+    console.log(anotherArray)
 
     let vector = []
     for (let i = 0; i < anotherArray.length; i++) {
