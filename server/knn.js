@@ -28,24 +28,23 @@ function responseToVectors(response) {
         arrayOfScores[i] = arrayOfScores[i].map(function(x) { return x / (answers[i]+1); })
     }
 
-    let anotherArray = [];
+    let scoresNonZero = [];
     for (let i = 0; i < 15; i++) {
-        anotherArray[i] = []
+        scoresNonZero[i] = []
         for (let j = 0; j < arrayOfScores.length; j++) {
             if (arrayOfScores[j][i] !== 0) {
-                anotherArray[i].push(arrayOfScores[j][i])
+                scoresNonZero[i].push(arrayOfScores[j][i])
             }
         }
     }
-    console.log(anotherArray)
 
     let vector = []
-    for (let i = 0; i < anotherArray.length; i++) {
+    for (let i = 0; i < scoresNonZero.length; i++) {
         vector[i] = 0
-        for (let j = 0; j < anotherArray[i].length; j++) {
-            vector[i]+= parseFloat(anotherArray[i][j])
+        for (let j = 0; j < scoresNonZero[i].length; j++) {
+            vector[i]+= parseFloat(scoresNonZero[i][j])
         }
-        vector[i] /= anotherArray[i].length
+        vector[i] /= scoresNonZero[i].length
     }
 
     //Check for NaNs
@@ -61,11 +60,9 @@ function responseToVectors(response) {
 function vectorsToCourses(vector)
 {
     let jsonContent = require('./courses.json');
-    let names = [];
     let tensors = []
     for(let i = 0; i < jsonContent.length;i++)
     {
-        names[i] = jsonContent[i]['Course'];
         tensors [i] = tf.tensor([jsonContent[i]['Artificial Intelligence'], jsonContent[i]['Data Science'], jsonContent[i]['Cyber Security'],
             jsonContent[i]['Cloud Computing'], jsonContent[i]["Emerging tech"], jsonContent[i]["Teaching"], jsonContent[i]["Blockchain"],
             jsonContent[i]["Quantum Computing"], jsonContent[i]["Open Source"], jsonContent[i]["Ethics"], jsonContent[i]["Agile"], jsonContent[i]["Media"],
@@ -114,9 +111,6 @@ function vectorsToCourses(vector)
         }
     }
 
-
-    user.print()
-    tensors[13].print()
     return [first[0], second[0], third[0], fourth[0], fifth[0]];
 }
 
