@@ -8,7 +8,7 @@ const app = express()
 
 // Middleware 🔒 Currently Open to All Routes
 app.use(cors({
-  // origin: process.env.ORIGIN,
+  origin: '*',
   optionsSuccessStatus: 200, // For legacy browser support
   methods: "GET, POST, PUT, PATCH, DELETE",
 }))
