@@ -1,10 +1,11 @@
 # Course Recommender System
 
 ## Server
+Server is now located in .
 ### Set up
 1. Ensure you have node and npm installed
-2. Run `npm install` in the server directory
-3. Go inside server directory (`cd server`) and run `npm start` or `nodemon` to start the server (`http://127.0.0.1:5000/`)
+2. Run `npm install`
+3. Run `npm start` or `nodemon` to start the server (`http://127.0.0.1:5000/`)
 
 ## Client
 ### Set up
