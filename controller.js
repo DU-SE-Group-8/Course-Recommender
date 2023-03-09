@@ -3,11 +3,16 @@ const knn = require('./knn')
 
 const get_questions = (req, res) => {
   data = questions
+  data.push({
+    "question": "Is there anything else you want to add?",
+    "answers": ["Yes", "No"],
+  })
   res.send(data)
 }
 
 const recommend_courses = (req, res) => {
   let log = req.body
+  log.pop()
   log = log.map(item => ({
     ...item,
     'answerId': item.answers.indexOf(item.answer),

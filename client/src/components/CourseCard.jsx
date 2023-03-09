@@ -1,7 +1,7 @@
 const CourseCard = ({ course }) => {
   return ( 
     <div>
-      <div className="card w-full bg-base-100 shadow-xl image-full">
+      <div className="card w-full bg-IBM-blue shadow-xl image-full">
         <figure><img src={course.image_url} alt={course.name} /></figure>
         <div className="card-body">
           <h2 className="card-title">{course.name}</h2>
