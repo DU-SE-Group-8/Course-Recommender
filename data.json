@@ -1,67 +1,85 @@
 {
     "courses": [
         {
+            "url": "https://www.ibm.com/academic/topic/artificial-intelligence?ach_id=256c0f15-a1f2-4b9e-b672-63f4d8b20018",
             "name": "Getting Started with Enterprise-grade AI",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/building-trustworthy-ai-enterprise-solutions",
             "name": "Building Trustworthy AI Enterprise Solutions",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FBuilding-Trustworthy-AI-Enterprise-Solutions.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/ethical-ai-applications-of-deep-learning-and-computer-vision",
             "name": "Ethical AI Applications of Deep Learning and Computer Vision",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FEthical-AI-Applications-of-Deep-Learning-and-Computer-Vision.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/building-ai-solutions-using-advanced-algorithms-and-open-source-frameworks",
             "name": "Building AI Solutions Using Advanced Algorithms and Open Source Frameworks",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FBuilding-AI-Solutions-Using-Advanced-Algorithms-and-Open-Source-Frameworks.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/journey-to-cloud-envisioning-your-solution",
             "name": "Journey to Cloud: Envisioning Your Solution",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FJourney-to-Cloud-Envisioning-Your-Solution.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/journey-to-cloud-transforming-your-culture",
             "name": "Journey to Cloud: Transforming Your Culture",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FJourney-to-Cloud-Transforming-Your-Culture.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/journey-to-cloud-orchestrating-your-culture",
             "name": "Journey to Cloud: Orchestrating Your Culture",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FJourney-to-Cloud-Orchestrating-your-Solution.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/devops-for-enterprise-business-agility",
             "name": "DevOps for Enterprise Business Agility",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FDevOps-for-Enterprise-Business-Agility.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/building-cloud-based-mobile-solutions-for-the-enterprise",
             "name": "Building Cloud-based Mobile Solutions for the Enterprise",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FBuilding-Cloud-based-Mobile-Solutions-for-the-Enterprise.png&w=640&q=75"
         },
         {
+            "url": "https://www.ibm.com/academic/topic/data-science?ach_id=8d72f699-26ac-4542-a701-6b69f50e6b5f",
             "name": "Getting Started with Enterprise Data Science",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-Data-Science.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/enterprise-data-science-in-practice",
             "name": "Enterprise Data Science in Practice",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FEnterprise-Data-Science-in-Practice.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/machine-learning-for-data-science-projects",
             "name": "Machine Learning for Data Science Projects",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FMachine-Learning-for-Data-Science-Projects.png&w=640&q=75"
         },
         {
+            "url": "https://www.ibm.com/academic/topic/security?ach_id=3f13c64c-c7ca-45d8-bce1-f05711460f09",
             "name": "Getting Started with Threat Intelligence and Hunting",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Threat-Intelligence-and-Hunting.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/enterprise-security-in-practice",
             "name": "Enterprise Security in Practice",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FEnterprise-Security-in-Practice.png&w=640&q=75"
         },
         {
+            "url": "https://skillsbuild.org/college-students/digital-credentials/security-operations-center-in-practice",
             "name": "Security Operations Center in Practice",
-            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FSecurity-Operations-Center-in-Practice.png&w=640&q=75"
         },
         {
-            "name": "Artificial Intelligence: Getting Started"
+            "url": "https://students.yourlearning.ibm.com/channel/CNL_LCB_1568727675344?utm_source=skillsbuild.org",
+            "name": "Artificial Intelligence: Getting Started",
+            "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=1920&q=75"
+
         },
         {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-B2125F145F0E?utm_source=skillsbuild.org",
