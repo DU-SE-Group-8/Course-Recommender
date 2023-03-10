@@ -3,17 +3,18 @@ const knn = require('./knn')
 
 const get_questions = (req, res) => {
   data = questions
-  data.push({
-    "question": "Is there anything else you want to add?",
-    "answers": ["Yes", "No"],
-  })
-  res.send(data)
+  res.send([
+    ...data,
+    {
+      "question": "Is there anything else you want to add?",
+      "answers": ["Yes", "No"],
+    }
+  ])
 }
 
 const recommend_courses = (req, res) => {
   let log = req.body
   log.pop()
-  console.log(log.length)
   log = log.map(item => ({
     ...item,
     'answerId': item.answers.indexOf(item.answer),
@@ -21,7 +22,18 @@ const recommend_courses = (req, res) => {
 
   recCourseIds = knn.vectorsToCourses(knn.responseToVectors(log))
   ans = [courses[recCourseIds[0]],courses[recCourseIds[1]],courses[recCourseIds[2]],courses[recCourseIds[3]],courses[recCourseIds[4]]]
-  res.send(ans)
+
+  // Remove duplicates and bad items - courses with the same name
+  courseNames = []
+  cleanedCourses = []
+  for (let i = 0; i < ans.length; i++) {
+    if (!courseNames.includes(ans[i].name) && ans[i].url !== undefined) {
+      courseNames.push(ans[i].name)
+      cleanedCourses.push(ans[i])
+    }
+  }
+
+  res.send(cleanedCourses)
 }
 
 module.exports = {
