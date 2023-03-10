@@ -61,6 +61,9 @@
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2023%2F02%2FGetting-Started-with-Enterprise-grade-AI.png&w=3840&q=75"
         },
         {
+            "name": "Artificial Intelligence: Getting Started"
+        },
+        {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-B2125F145F0E?utm_source=skillsbuild.org",
             "name": "AI Foundations: A Collaboration of ISTE and IBM",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-AI-01.png&w=3840&q=75"
@@ -132,7 +135,7 @@
         },
         {
             "url": "https://students.yourlearning.ibm.com/activity/PLAN-F0DF852C4003?utm_source=skillsbuild.org",
-            "name": "Data Science Foundations ",
+            "name": "Data Science Foundations",
             "image_url": "https://skillsbuild.org/_next/image?url=https%3A%2F%2Fskillsbuild.wpengine.com%2Fwp-content%2Fuploads%2F2021%2F07%2FSkillsbuild-DataScience-1.png&w=3840&q=75"
         },
         {

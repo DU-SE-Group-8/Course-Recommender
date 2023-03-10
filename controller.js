@@ -13,6 +13,7 @@ const get_questions = (req, res) => {
 const recommend_courses = (req, res) => {
   let log = req.body
   log.pop()
+  console.log(log.length)
   log = log.map(item => ({
     ...item,
     'answerId': item.answers.indexOf(item.answer),
