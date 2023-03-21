@@ -1,7 +1,9 @@
 # Course Recommender System
+The server is hosted at course-recommender-duse.azurewebsites.net
+The client is hosted at https://course-recommender.netlify.app/
 
 ## Server
-Server is now located in .
+Server is now located in the root directory.
 ### Set up
 1. Ensure you have node and npm installed
 2. Run `npm install`
