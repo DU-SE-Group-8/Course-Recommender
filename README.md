@@ -1,5 +1,6 @@
 # Course Recommender System
 The server is hosted at course-recommender-duse.azurewebsites.net
+
 The client is hosted at https://course-recommender.netlify.app/
 
 ## Server
